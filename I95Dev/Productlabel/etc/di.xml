@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Smile\ProductLabel\Block\ProductLabel\ProductLabel"
+                type="I95Dev\Productlabel\Block\ProductLabel\ProductLabel" />
+    <preference for="Smile\ProductLabel\Model\ProductLabel"
+                type="I95Dev\Productlabel\Model\ProductLabel" />
+    <preference for="Smile\ProductLabel\Model\ResourceModel\ProductLabel\Grid\Collection"
+                type="I95Dev\Productlabel\Model\ResourceModel\ProductLabel\Grid\Collection" />
+    <preference for="Smile\ProductLabel\Ui\Component\ProductLabel\Form\Modifier\AttributeOptions"
+                type="I95Dev\Productlabel\Ui\Component\ProductLabel\Form\Modifier\AttributeOptions" />
+    <preference for="Smile\ProductLabel\Ui\Component\ProductLabel\Form\Modifier\Attribute"
+                type="I95Dev\Productlabel\Ui\Component\ProductLabel\Form\Modifier\Attribute" />
+</config>
