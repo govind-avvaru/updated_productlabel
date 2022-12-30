@@ -60,6 +60,8 @@ class AttributeOptions extends \Smile\ProductLabel\Ui\Component\ProductLabel\For
         $isNew = !$productLabel->getId();
         $optionFieldVisible = $isNew && $productLabel->getAttributeId();
 
+        $meta['general']['children']['option_id']['arguments']['data']['config']['visible']  = $optionFieldVisible;
+        
         $meta['general']['children']['option_label']['arguments']['data']['config']['disabled'] = $isNew;
         $meta['general']['children']['option_label']['arguments']['data']['config']['visible']  = !$isNew;
 
