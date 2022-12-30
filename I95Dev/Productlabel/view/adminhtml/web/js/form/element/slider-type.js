@@ -25,16 +25,16 @@ define([
                 var attributeOption = uiRegistry.get('index = option_id');
                 var option_label = uiRegistry.get('index = option_label');
                 var attribute_label = uiRegistry.get('index = attribute_label');
-                if (value == 0) {
-                    category.show();
-                    attribute.hide();
-                    attributeOption.hide();
-                    option_label.hide();
-                    attribute_label.hide();
-                } else {
+                if (value == 1) {
                     category.hide();
                     attribute.show();
                     attributeOption.show();
+                    option_label.hide();
+                    attribute_label.hide();
+                } else {
+                    category.show();
+                    attribute.hide();
+                    attributeOption.hide();
                     option_label.hide();
                     attribute_label.hide();
                 }
